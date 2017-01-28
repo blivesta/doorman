@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - "6"
+  - "4"
+sudo: false
+cache:
+  yarn: true
+  directories:
+  - node_modules
+notifications:
+  slack: blivesta:ygWmRLL4fyU0s7FFlVHSsJnS
+  email: false
