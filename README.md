@@ -1,6 +1,6 @@
 # Doorman
 
-[![npm version](https://img.shields.io/npm/v/@blivesta/doorman.svg?style=flat-square)](https://www.npmjs.com/package/@blivesta/doorman)
+[![npm version](https://img.shields.io/npm/v/doorman-effect.svg?style=flat-square)](https://www.npmjs.com/package/doorman-effect)
 [![Build Status](https://img.shields.io/travis/blivesta/doorman/master.svg?style=flat-square)](https://travis-ci.org/blivesta/doorman)
 
 > Simple animation for revealing elements.
@@ -18,16 +18,16 @@ http://git.blivesta.com/doorman/
 CDN
 
 ```html
-<script src="https://unpkg.com/@blivesta/doorman/umd/doorman.min.js"></script>
+<script src="https://unpkg.com/doorman-effect/umd/doorman.min.js"></script>
 ```
 
 npm
 
 ```html
-$ npm install @blivesta/doorman
+$ npm install doorman-effect
 ```
 ```js
-const Doorman = require('doorman');
+const Doorman = require('doorman-effect');
 ```
 
 ## Usage
@@ -87,7 +87,7 @@ Example to use with [scrollmonitor](https://github.com/stutrek/scrollMonitor)
 </div>
 
 <script src="https://unpkg.com/scrollmonitor@1.2.2"></script>
-<script src="https://unpkg.com/@blivesta/doorman/doorman.min.js"></script>
+<script src="https://unpkg.com/doorman-effect/umd/doorman.min.js"></script>
 <script>
   const sections = [
     document.getElementById('section1'),

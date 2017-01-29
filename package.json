@@ -1,5 +1,5 @@
 {
-  "name": "@blivesta/doorman",
+  "name": "doorman-effect",
   "description": "Simple animation for revealing elements.",
   "version": "0.0.0",
   "main": "src/doorman.js",
