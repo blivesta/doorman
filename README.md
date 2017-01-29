@@ -1,6 +1,6 @@
 # Doorman
 
-[![npm version](https://img.shields.io/npm/v/doorman.svg?style=flat-square)](https://www.npmjs.com/package/doorman)
+[![npm version](https://img.shields.io/npm/v/@blivesta/doorman.svg?style=flat-square)](https://www.npmjs.com/package/@blivesta/doorman)
 [![Build Status](https://img.shields.io/travis/blivesta/doorman/master.svg?style=flat-square)](https://travis-ci.org/blivesta/doorman)
 
 > Simple animation for revealing elements.
