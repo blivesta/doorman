@@ -4,14 +4,14 @@
   "version": "0.0.0",
   "main": "src/doorman.js",
   "scripts": {
-    "build": "yarn standard && yarn build:js && yarn minify && yarn copy",
+    "build": "npm run lint && npm run build:js && npm run minify && npm run copy",
     "build:js": "rollup -c rollup.config.js",
     "copy": "cp umd/doorman.min.js docs",
-    "watch": "chokidar 'src/**/*.js' -c 'yarn build'",
+    "watch": "chokidar 'src/**/*.js' -c 'npm run build'",
     "develop": "karma start",
-    "standard": "standard src/**/*.js",
+    "lint": "standard src/**/*.js",
     "minify": "uglifyjs umd/doorman.js -o umd/doorman.min.js",
-    "start": "yarn lint && yarn build && yarn serve",
+    "start": "npm run lint && npm run build && npm run serve",
     "serve": "browser-sync start --server ./docs --files docs/*.html",
     "test": "karma start --single-run"
   },
